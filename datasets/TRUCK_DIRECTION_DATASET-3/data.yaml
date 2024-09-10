@@ -1,0 +1,13 @@
+names:
+- TRUCK_IN
+- TRUCK_OUT
+nc: 2
+roboflow:
+  license: Private
+  project: truck_direction_dataset
+  url: https://app.roboflow.com/container-rnvq9/truck_direction_dataset/3
+  version: 3
+  workspace: container-rnvq9
+test: ../test/images
+train: TRUCK_DIRECTION_DATASET-3/train/images
+val: TRUCK_DIRECTION_DATASET-3/valid/images
